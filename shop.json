@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Футболка 1",
+      "price": 4200,
+      "category": "Футболки",
+      "description": "Бла-бла-бла",
+      "imgSrc": "https://storage.vsemayki.ru/images/0/2/2044/2044077/previews/people_13_manshortfull_front_white_500.jpg",
+      "size": [
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Футболка 2",
+      "price": 5500,
+      "category": "Футболки",
+      "description": "Бла-бла-бла",
+      "imgSrc": "https://storage.vsemayki.ru/images/0/0/915/915679/previews/people_16_womanshortfull_front_white_500.jpg",
+      "size": [
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Футболка 3",
+      "price": 3000,
+      "category": "Футболки",
+      "description": "Бла-бла-бла",
+      "imgSrc": "https://storage.vsemayki.ru/images/0/1/1956/1956741/previews/people_8_child_tshirt_front_white_500.jpg",
+      "size": [
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Толстовка 1",
+      "price": 8000,
+      "category": "Толстовки",
+      "description": "Бла-бла-бла",
+      "imgSrc": "https://storage.vsemayki.ru/images/0/0/220/220872/previews/people_8_hoodie_front_melangeburgundy_500.jpg",
+      "size": [
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Толстовка 2",
+      "price": 8500,
+      "category": "Толстовки",
+      "description": "Бла-бла-бла",
+      "imgSrc": "https://storage.vsemayki.ru/images/0/1/1958/1958291/previews/people_15_manhoodiefull_front_black_500.jpg",
+      "size": [
+        "M",
+        "XL"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1, 
+      "title": "Футболки"
+    },
+    {
+      "id": 2,
+      "title": "Толстовки"
+    },
+    {
+      "id": 3,
+      "title": "Костюмы"
+    }
+  ]
+}

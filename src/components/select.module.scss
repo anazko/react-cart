@@ -1,0 +1,47 @@
+.selectBox {
+  position: relative;
+  max-width: 100%;
+
+  .head {
+    padding: 1rem; //
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+
+  .list {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background: #fff; //
+    border: 1px solid #ddd; //
+    border-top: none;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+ 
+  .item {
+    padding: 1rem;
+    cursor: pointer;
+
+    &.selectedItem {
+      background: #f0f0f0;
+    }
+
+    &:hover {
+      background: #fff4d1;
+    }
+  }
+
+  &.opened {
+    .list {
+      display: block;
+    }
+  }
+}
+
+
+

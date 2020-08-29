@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  background: #fff;
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.productsContainer {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.productsList {
+  margin: 0 -5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productCard {
+    border: 1px solid #eee;
+    text-align: center;
+    flex-basis: calc((100% - 30px) / 3);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.productCard img {
+  max-width: 100%;
+}
