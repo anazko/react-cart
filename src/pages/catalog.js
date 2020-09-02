@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { setProducts, setCategories } from "./../redux/store";
+import { setProducts, setCategories } from "./../redux";
 import { connect } from "react-redux";
 import { Select } from "../components";
 
